@@ -115,7 +115,7 @@ int print_int(va_list types, char buffer[],
 
 	m = convert_size_number(m, size);
 
-	if (n == 0)
+	if (m == 0)
 		buffer[x--] = '0';
 
 	buffer[BUFF_SIZE - 1] = '\0';
